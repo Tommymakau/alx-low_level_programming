@@ -1,46 +1,33 @@
-#include <stdlib.h>
-#include <time.h>
 #include <stdio.h>
 
-/* Inventing*/
 /**
- * main - Entry point
+ * main - entry point
  *
  * Return: Always 0
  */
 int main(void)
 {
-	int i;
-	int j;
+	int num1, num2;
 
-	i = 48;
-	j = 48;
-	while  ((i < 58) && (j < 58))
+	for (num1 = 0; num1 <= 98; num1++)
 	{
-		putchar(i);
-		putchar(j);
-		if ((i == 57) && (j == 57))
+		for (num2 = num1 + 1; num2 <= 99; num2++)
 		{
-			putchar('\n');
-			i++;
-			j++;
-		}
-		else
-		{
-			putchar(44);
-			putchar(32);
-			if (j < 57)
-			{
-				j++;
-			}
-			else
-			{
-				j = 48;
-				i++;
-			}
-		}
+			putchar((num1 / 10) + '0');
+			putchar((num1 % 10) + '0');
+			putchar(' ');
+			putchar((num2 / 10) + '0');
+			putchar((num2 % 10) + '0');
 
+			if (num1 == 98 && num2 == 99)
+				continue;
+
+			putchar(',');
+			putchar(' ');
+		}
 	}
+
+	putchar('\n');
 
 	return (0);
 }
