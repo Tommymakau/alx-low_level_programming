@@ -5,8 +5,7 @@
 /* The last digit */
 /**
  * main - Entry point
- *
- * Return: Always 0 
+ * Return: Always 0
  */
 int main(void)
 {
