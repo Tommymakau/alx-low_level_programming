@@ -1,6 +1,6 @@
 #include <stdio.h>
 
-/*a program that prints the lowercase alphabet in reverse, followed by a new line.*/
+/*Smile in the mirror*/
 /**
  * main - Entry point
  *

@@ -2,7 +2,7 @@
 #include <time.h>
 #include <stdio.h>
 
-/* a program that prints all possible combinations of single-digit numbers */
+/* Patience, persistence and perspiration*/
 /**
  * main - Entry point
  *
