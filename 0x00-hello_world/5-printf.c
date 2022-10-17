@@ -1,8 +1,8 @@
 #include <stdio.h>
 /**
-ii * main - Entry
- *return: Always 0
- */
+* main - Entry
+* return: Always 0
+*/
 int main(void)
 {
 	printf("with proper grammar, but the outcome is a piece of art,\n");
